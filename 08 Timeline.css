@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 2fr 2fr 4rem 2fr 2fr;
     gap: 2rem;
-    margin-top: 0rem;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -29,12 +28,19 @@
 }
 
 .TimelineNode {
+    background-color: #ff7988;
+    width: 1.5rem;
+    margin: 0 auto; 
+}
+
+.TimelineNodeDot {
     font-size: 6rem;
     text-align: center;
     -webkit-text-stroke-width: 1rem;
     -webkit-text-stroke-color: #EF233C;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: relative;
+    right: 70%;
+    top: 20%;
 }
 
 .TimelineImage {
@@ -44,7 +50,7 @@
 }
 
 .StupidRectangle {
-    background-color: #ff7988;
+    
     color: rgba(0,0,0,0);
     height: 5000%;
     width: 50%;
