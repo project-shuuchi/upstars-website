@@ -1,0 +1,69 @@
+.StarStoriesWrapper {
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+}
+
+.StarStoriesFrame {
+    border-radius: 1rem;
+    border: 2px solid #2b2d42;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.StarStoriesButton {
+    background-color: #EF233C;
+    color: white;
+    border-radius: 1000rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin: auto;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.StarStoriesButton:hover {
+    color: #EF233C;
+    background-color: white;
+    font-weight: bold;
+    scale: 2;
+}
+
+.StarStoriesImage {
+    width: 80%;
+    margin: auto;
+}
+
+.StarStoriesQuote {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.StarStoriesHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.StarStoriesEnterButton {
+    background-color: #2b2d42;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 10rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.StarStoriesEnterButton:hover {
+    background-color: #EF233C;
+}

@@ -1,0 +1,73 @@
+.OverviewV1Frame {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 90%;
+    margin-left: auto;
+}
+
+.OverviewV2Frame {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 90%;
+    margin-right: auto;
+}
+
+.OverviewV2Frame.special {
+    display: none;
+}
+
+.OverviewHeader {
+    font-size: 2rem;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.OverviewText {
+    font-size: 1.2rem;
+}
+
+.OverviewImage {
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .OverviewV1Frame, .OverviewV2Frame {
+        grid-template-columns: 1fr;
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .OverviewHeader {
+        font-size: 1.5rem;
+    }
+
+    .OverviewText {
+        font-size: 1rem;
+    }
+
+    .OverviewImage {
+        width: 70%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3rem;
+    }
+
+    .OverviewV2Frame.special {
+        display: block;
+    }
+
+    .OverviewV2Frame {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .OverviewImage {
+        width: 100%;
+    }
+}

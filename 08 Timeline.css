@@ -1,0 +1,56 @@
+.TimelineFrame {
+    display: grid;
+    grid-template-columns: 2fr 2fr 4rem 2fr 2fr;
+    gap: 2rem;
+    margin-top: 0rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TimelineHeader {
+    font-size: 2rem;
+    text-align: right;
+    color: #EF233C;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.TimelineHeader.left {
+    text-align: left;
+}
+
+.TimelineContent {
+    text-align: right;
+}
+
+.TimelineContent.left {
+    text-align: left;
+}
+
+.TimelineNode {
+    font-size: 6rem;
+    text-align: center;
+    -webkit-text-stroke-width: 1rem;
+    -webkit-text-stroke-color: #EF233C;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.TimelineImage {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.StupidRectangle {
+    background-color: #ff7988;
+    color: rgba(0,0,0,0);
+    height: 2500%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5rem;
+    z-index: -999;
+}

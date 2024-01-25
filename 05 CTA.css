@@ -1,0 +1,57 @@
+.CTAFrame {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CTAHeader {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.CTAButton {
+    font-size: 2rem;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    cursor: pointer;
+    color: white;
+    background-color: #2b2d42;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    transition-duration: 0.4s;
+}
+
+.CTAButton:hover {
+    background-color: #EF233C;
+}
+
+.CTAEnder {
+    font-size: 2rem;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.CTAButtonCumEnderWrapper {
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .CTAHeader {
+        font-size: 1.5rem;
+    }
+
+    .CTAEnder {
+        font-size: 1.5rem;
+    }
+
+    .CTAButton {
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

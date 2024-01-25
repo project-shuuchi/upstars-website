@@ -1,0 +1,55 @@
+.HeroFrame {
+    height: 80%;
+    position: relative;
+    top: 4.5rem;
+}
+
+.HeroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 0.4;
+    z-index: -999;
+    position: absolute;
+}
+
+.HeroHeader {
+    font-size: 2.5rem;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1);
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.HeroHeader.alt {
+    text-align: center;
+}
+
+.HeroSubheader {
+    font-size: 1.5rem;
+    position: relative;
+    top: 37%;
+    left: 10%;
+    width: 80%;
+    text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1);
+}
+
+.HeroSubheader.alt {
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+}
+
+@media only screen and (max-width: 550px) {
+    .HeroHeader {
+        font-size: 2rem;
+    }
+
+    .HeroSubheader {
+        font-size: 1rem;
+    }
+}

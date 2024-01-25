@@ -1,0 +1,67 @@
+.PersonaFrame {
+    height: 5rem;
+    background-color: white;
+    position: relative;
+    top: 2rem;
+    display: grid;
+    grid-template-columns: 10% max-content 5% 1fr 1fr 1fr 10%;
+    margin-bottom: 5rem;
+}
+
+.PersonaHeader {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.PersonaButton {
+    background-color: #2b2d42;
+    margin: 1.4rem;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.PersonaButton:hover {
+    background-color: #EF233C;
+}
+
+.PersonaButton > text {
+    position: relative;
+    top: 0.3rem;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 750px) {
+    .PersonaButton {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .PersonaFrame {
+        grid-template-columns: 5% 1fr 0 1fr 1fr 1fr 5%
+    }
+
+    .PersonaButton {
+        margin-left: 0;
+        margin-right: 0;
+        background-color: white;
+        color: #2b2d42;
+    }
+
+    .PersonaButton:hover {
+        background-color: white;
+    }
+
+    .PersonaHeader {
+        font-size: 1rem;
+        position: relative;
+        top: 0.3rem;
+        font-weight: bold;
+        margin-top: 1.4rem;
+    }
+}
