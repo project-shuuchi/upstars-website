@@ -1,0 +1,128 @@
+.SSSPersonaFrame {
+    display: grid;
+    grid-template-columns: 65fr 35fr;
+    gap: 2rem;
+    width: 80%;
+    height: 65%;
+    margin: auto;
+}
+
+.SSSHeroFrame {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 6.5rem;
+    border-radius: 1rem;
+    border: 2px solid #2b2d42;
+}
+
+.SSSHeroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.4;
+    z-index: -999;
+    position: absolute;
+}
+
+.SSSHeroHeader {
+    font-size: 2.5rem;
+    position: relative;
+    top: 30%;
+    left: 5rem;
+    width: 80%;
+    text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.SSSHeroSubheader {
+    font-size: 1.5rem;
+    position: relative;
+    top: 25%;
+    left: 5rem;
+    width: 80%;
+    text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
+
+.SSSRankFrame {
+    background-color: #ebfaff;
+    border-radius: 1rem;
+    border: 2px solid #2b2d42;
+    position: relative;
+    top: 6.5rem;
+}
+
+.SSSRankHeader {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.SSSRankSubheader {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+}
+
+.SSSRankImage {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 3rem;
+}
+
+.SSSReturnButton {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 10rem;
+    background-color: #2b2d42;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+
+.SSSReturnButton:hover {
+    background-color: #EF233C;
+}
+
+.SSSArticleFrame {
+    width: 80%;
+    margin: auto;
+    margin-top: 11rem;
+    margin-bottom: 3rem;
+    background-color: #ebfaff;
+    padding: 3rem 5rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border: 2px solid #2b2d42;
+}
+
+.SSSArticleHeader {
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.SSSArticleText {
+}
