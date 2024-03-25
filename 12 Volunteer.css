@@ -1,0 +1,156 @@
+.VolunteerMainDescription {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.VolunteerSwitchTab {
+    background-color: #66738b;
+    font-weight: bold;
+    width: 20rem;
+    margin: 0 auto;
+    padding: 0.6rem;
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1rem;
+    gap: 0.5rem;
+}
+
+.VolunteerTab {
+    text-align: center;
+    padding: 0.4rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 1rem;
+}
+
+.VolunteerTab.active {
+    background-color: white;
+}
+
+.VolunteerSwitchPage {
+    transition-duration: 0.4s;
+}
+
+.VolunteerSwitchPage.inactive {
+    display: none;
+}
+
+.VolunteerSPHeader {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.VolunteerTutorCommitmentsFrame {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.VolunteerTutorCommitmentSingular {
+    text-align: center;
+    background-color: #66738b;
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-bottom: 0rem;
+    font-size: 1rem;
+}
+
+.VolunteerTCSHeader {
+    font-size: 2rem;
+    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+.VolunteerTCSContent {
+    font-size: 1.3rem;
+}
+
+.VolunteerTCSImageFrame {
+    background-color: white;
+    border-radius: 1000rem;
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.VolunteerTCSImage {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    filter: brightness(0) saturate(100%) invert(13%) sepia(18%) saturate(1450%) hue-rotate(196deg) brightness(86%) contrast(83%);
+}
+
+.VolunteerProjectsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.VolunteerPGCContent {
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.VolunteerPGCContent.LA {
+    text-align: left;
+}
+
+.VolunteerPGCContent.CA {
+    text-align: center;
+    font-weight: bold;
+}
+
+.VolunteerActionButton {
+    background-color: #2b2d42;
+    color: white;
+    text-align: center;
+    line-height: normal;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 0.5rem 2rem;
+    width: max-content;
+    font-weight: bold;
+}
+
+.VolunteerActionButton:hover {
+    background-color: #EF233C;
+}
+
+.VolunteerActionButton.RA {
+    margin-left: auto;
+    display: block;
+}
+
+.VolunteerFAQQuestion {
+    margin: 2rem auto 0 auto;
+    width: 80%;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #66738b;
+    padding: 0.5rem 2rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.VolunteerFAQAnswer {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    border-radius: 0 0 1rem 1rem;
+    border: 1px solid #66738b;
+    border-top: none;
+}
