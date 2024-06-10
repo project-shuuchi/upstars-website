@@ -6,6 +6,31 @@
     margin-bottom: 10rem;
 }
 
+@media only screen and (max-width: 700px) {
+    .StarStoriesWrapper {
+        grid-template-columns: 5rem 1fr 5rem;
+    }
+
+    .StarStoriesButton {
+        width: 2rem !important;
+        height: 2rem !important;
+        font-size: 1.3rem !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .StarStoriesWrapper {
+        grid-template-columns: 3rem 1fr 3rem;
+    }
+
+    .StarStoriesButton {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+        font-size: 1rem !important;
+    }
+
+}
+
 .StarStoriesFrame {
     border-radius: 1rem;
     border: 2px solid #2b2d42;
@@ -15,6 +40,12 @@
     gap: 2rem;
     padding: 2rem;
     background-color: #ebfaff;
+}
+
+@media only screen and (max-width: 900px) {
+    .StarStoriesFrame {
+        grid-template-columns: 1fr;
+    }
 }
 
 .StarStoriesButton {

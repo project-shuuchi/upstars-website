@@ -2,5 +2,13 @@
     font-size: 2.5rem;
     text-align: center;
     margin-top: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .ContentHeader {
+        font-size: 2rem;
+    }
 }

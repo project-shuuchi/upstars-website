@@ -7,6 +7,28 @@
     margin: auto;
 }
 
+@media only screen and (max-width: 900px) {
+    .SSSPersonaFrame {
+        grid-template-columns: 1fr;
+    }
+
+    .SSSRankFrame {
+        background-color: white !important;
+    }
+
+    .SSSRankImage {
+        display: none !important;
+    }
+
+    .SSSArticleFrame {
+        margin-top: 15rem !important;
+    }
+
+    .SSSReturnButton {
+        display: none;
+    }
+}
+
 .SSSHeroFrame {
     height: 100%;
     width: 100%;
@@ -14,6 +36,12 @@
     top: 6.5rem;
     border-radius: 1rem;
     border: 2px solid #2b2d42;
+}
+
+@media only screen and (max-width: 900px) {
+    .SSSHeroFrame {
+        height: 20rem;
+    }
 }
 
 .SSSHeroImage {
@@ -46,6 +74,36 @@
     text-shadow: 0 0 0.5rem rgba(255, 255, 255, 1);
     text-transform: uppercase;
     letter-spacing: 0.4rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .SSSHeroHeader {
+        font-size: 2rem;
+    }
+
+    .SSSHeroSubheader {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .SSSHeroHeader{
+        left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .SSSHeroSubheader{
+        left: 2rem;
+        font-size: 1rem;
+    }
+
+    .SSSArticleFrame {
+        padding: 3rem 2rem !important;
+    }
+
+    .SSSArticleHeader {
+        font-size: 1.5rem !important;
+    }
 }
 
 .SSSRankFrame {
