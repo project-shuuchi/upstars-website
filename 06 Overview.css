@@ -20,7 +20,8 @@
 
 .OverviewHeader {
     font-size: 2rem;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
     font-weight: bold;
 }
 
@@ -33,7 +34,8 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .OverviewV1Frame, .OverviewV2Frame {
+    .OverviewV1Frame,
+    .OverviewV2Frame {
         grid-template-columns: 1fr;
         width: 80%;
         display: block;

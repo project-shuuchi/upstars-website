@@ -9,12 +9,14 @@
 .CTAHeader {
     font-size: 2rem;
     text-align: center;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
 }
 
 .CTAButton {
     font-size: 2rem;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
     cursor: pointer;
     color: white;
     background-color: #2b2d42;
@@ -28,12 +30,13 @@
 }
 
 .CTAButton:hover {
-    background-color: #EF233C;
+    background-color: #ef233c;
 }
 
 .CTAEnder {
     font-size: 2rem;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
 }
 
 .CTAButtonCumEnderWrapper {

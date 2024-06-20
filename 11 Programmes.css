@@ -9,6 +9,7 @@
     width: 80%;
     margin: auto;
     margin-top: 1rem;
+    overflow: hidden;
 }
 
 .TestimonialImage {
@@ -19,11 +20,31 @@
 .TestimonialHeader {
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
 }
 
 .TestimonialContent {
+    font-weight: light;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.TestimonialCredit {
     font-style: italic;
+}
+
+/* Yes I know this style of setting mobile as special is not ideal. It is what is simpler rn */
+@media screen and (max-width: 500px) {
+    .TestimonialFrame {
+        grid-template-columns: 1fr;
+    }
+    .TestimonialImage {
+        /* Incredibly crude way of fullscreening the image to the top, assuming parent padding = 2rem */
+        margin-left: -2rem;
+        margin-top: -2rem;
+        width: calc(100% + 4rem);
+    }
 }
 
 .ProgrammeFrame {
@@ -33,23 +54,38 @@
     padding: 2rem;
     width: 80%;
     margin: auto;
-    margin-top: 1rem;
+    border-bottom: 2px solid #2b2d42;
+}
+.ProgrammeFrame:nth-of-type(even) {
+    background-color: #ebfaff;
+}
+@media screen and (max-width: 500px) {
+    .ProgrammeFrame {
+        display: block;
+    }
+    .ProgrammeImage {
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .ProgrammeImage {
     width: 60%;
     margin: auto;
-    filter: brightness(0) saturate(100%) invert(13%) sepia(18%) saturate(1450%) hue-rotate(196deg) brightness(86%) contrast(83%);
+    filter: brightness(0) saturate(100%) invert(13%) sepia(18%) saturate(1450%)
+        hue-rotate(196deg) brightness(86%) contrast(83%);
 }
 
 .ProgrammeHeader {
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
 }
 
 .ProgrammeButton {
-    background-color: #EF233C;
+    background-color: #ef233c;
     color: white;
     text-align: center;
     line-height: normal;

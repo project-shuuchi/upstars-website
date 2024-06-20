@@ -1,10 +1,17 @@
 body {
     margin: 0;
     color: #2b2d42;
-    font-family: 'Segoe UI', -apple-system, Tahoma, Geneva, Verdana, sans-serif;
+    font-family:
+        "Segoe UI",
+        -apple-system,
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -14,8 +21,8 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-  /* Hide scrollbar for IE, Edge and Firefox */
+/* Hide scrollbar for IE, Edge and Firefox */
 body {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }

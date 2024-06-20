@@ -1,107 +1,226 @@
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>UPStars</title>
-        <link rel="stylesheet" href="./01 Generic.css">
-        <link rel="stylesheet" href="./02 NavBar.css">
-        <link rel="stylesheet" href="./03 HeroBanner.css">
-        <link rel="stylesheet" href="./07 Content.css">
-        <link rel="stylesheet" href="./11 Programmes.css">
+        <link rel="stylesheet" href="./01 Generic.css" />
+        <link rel="stylesheet" href="./02 NavBar.css" />
+        <link rel="stylesheet" href="./03 HeroBanner.css" />
+        <link rel="stylesheet" href="./07 Content.css" />
+        <link rel="stylesheet" href="./11 Programmes.css" />
         <script src="javascript.js"></script>
     </head>
 
     <body>
         <div class="NavFrame">
-            <img class="NavLogo" src="assets/placeholder_logo_on_dark_blue_background.png">
-            <div class="NavButton" onclick="location.href='./index.html'">Home</div>
-            <div class="NavButton" onclick="location.href='./story.html'">Our Story</div>
-            <div class="NavButton" onclick="location.href='./programmes.html'">Our Programmes</div>
-            <div class="NavButton" onclick="location.href='./volunteer.html'">Volunteer with Us</div>
-            <div class="NavButton" onclick="location.href='./signup.html'">Sign Up</div>
+            <img
+                class="NavLogo"
+                src="assets/placeholder_logo_on_dark_blue_background.png"
+            />
+            <div class="NavButton" onclick="location.href='./index.html'">
+                Home
+            </div>
+            <div class="NavButton" onclick="location.href='./story.html'">
+                Our Story
+            </div>
+            <div class="NavButton" onclick="location.href='./programmes.html'">
+                Our Programmes
+            </div>
+            <div class="NavButton" onclick="location.href='./volunteer.html'">
+                Volunteer with Us
+            </div>
+            <div class="NavButton" onclick="location.href='./signup.html'">
+                Sign Up
+            </div>
             <div class="NavButton HamIcon" onclick="toggleHamburger()">三</div>
         </div>
 
         <div class="HamburgerMenu">
-            <div class="NavButton HamOpt" onclick="location.href='./index.html'">Home</div><br>
-            <div class="NavButton HamOpt" onclick="location.href='./story.html'">Our Story</div><br>
-            <div class="NavButton HamOpt" onclick="location.href='./programmes.html'">Our Programmes</div><br>
-            <div class="NavButton HamOpt" onclick="location.href='./volunteer.html'">Volunteer with Us</div><br>
-            <div class="NavButton HamOpt" onclick="location.href='./signup.html'">Sign Up</div>
+            <div
+                class="NavButton HamOpt"
+                onclick="location.href='./index.html'"
+            >
+                Home
+            </div>
+            <br />
+            <div
+                class="NavButton HamOpt"
+                onclick="location.href='./story.html'"
+            >
+                Our Story
+            </div>
+            <br />
+            <div
+                class="NavButton HamOpt"
+                onclick="location.href='./programmes.html'"
+            >
+                Our Programmes
+            </div>
+            <br />
+            <div
+                class="NavButton HamOpt"
+                onclick="location.href='./volunteer.html'"
+            >
+                Volunteer with Us
+            </div>
+            <br />
+            <div
+                class="NavButton HamOpt"
+                onclick="location.href='./signup.html'"
+            >
+                Sign Up
+            </div>
         </div>
 
         <div class="HeroFrame">
-            <img class="HeroImage" src="assets/a_community_bringing_opportunities.webp">
+            <img
+                class="HeroImage"
+                src="assets/a_community_bringing_opportunities.webp"
+            />
             <p class="HeroHeader alt"><strong>Programmes</strong></p>
-            <p class="HeroSubheader alt">We offer a wide range of carefully crafted programmes, catering to your child’s specific needs and maximising his/her potential</p>
+            <p class="HeroSubheader alt">
+                We offer a wide range of carefully crafted programmes, catering
+                to your child’s specific needs and maximising his/her potential
+            </p>
         </div>
 
         <div class="ContentHeader">Customer Testimonials</div>
 
         <div class="TestimonialFrame">
-            <img class="TestimonialImage" src="./assets/guy_looking_to_the_side.jpg">
+            <img
+                class="TestimonialImage"
+                src="./assets/guy_looking_to_the_side.jpg"
+            />
             <div class="TestimonialText">
-                <div class="TestimonialHeader">Commitment to Excellence, Perfection in Instruction</div>
-                <br>
-                <div class="TestimonialContent">(AI-generated content placeholder content) “UPStars's commitment to providing guidance, care, and resources enables families and communities to keep young people in school and out of trouble. With a focus on mentorship and academic support, UPStars truly makes a positive impact on the lives of those they serve.”</div>
-                <br>
+                <div class="TestimonialHeader">
+                    Commitment to Excellence, Perfection in Instruction
+                </div>
+                <br />
+                <div class="TestimonialContent">
+                    (AI-generated content placeholder content) “UPStars's
+                    commitment to providing guidance, care, and resources
+                    enables families and communities to keep young people in
+                    school and out of trouble. With a focus on mentorship and
+                    academic support, UPStars truly makes a positive impact on
+                    the lives of those they serve.”
+                </div>
+                <br />
                 <div class="TestimonialCredit">– Timmy Tan</div>
-                <div class="TestimonialCredit">&nbsp&nbsp&nbspEx-student of Ulu Pandan Stars</div>
+                <div class="TestimonialCredit">
+                    &nbsp&nbsp&nbspEx-student of Ulu Pandan Stars
+                </div>
             </div>
         </div>
 
         <div class="ProgrammeFrame">
-            <img class="ProgrammeImage" src="./assets/ic_fluent_book_letter_24_filled.png">
+            <img
+                class="ProgrammeImage"
+                src="./assets/ic_fluent_book_letter_24_filled.png"
+            />
             <div class="ProgrammeText">
                 <div class="ProgrammeHeader">Reading</div>
-                <br>
-                <div class="ProgrammeContent">(AI-generated content placeholder content) “Is your child struggling with reading? Our tailored tuition service is here to ignite their passion for words. With engaging lessons, personalized attention, and proven techniques, we’ll transform hesitant readers into confident bookworms. Enroll today and watch their world expand, one page at a time!”</div>
-                <br>
+                <br />
+                <div class="ProgrammeContent">
+                    (AI-generated content placeholder content) “Is your child
+                    struggling with reading? Our tailored tuition service is
+                    here to ignite their passion for words. With engaging
+                    lessons, personalized attention, and proven techniques,
+                    we’ll transform hesitant readers into confident bookworms.
+                    Enroll today and watch their world expand, one page at a
+                    time!”
+                </div>
+                <br />
                 <div class="ProgrammeButton">Enroll here</div>
             </div>
         </div>
 
         <div class="ProgrammeFrame">
-            <img class="ProgrammeImage" src="./assets/ic_fluent_translate_24_filled.png">
+            <img
+                class="ProgrammeImage"
+                src="./assets/ic_fluent_translate_24_filled.png"
+            />
             <div class="ProgrammeText">
                 <div class="ProgrammeHeader">Language</div>
-                <br>
-                <div class="ProgrammeContent">(AI-generated content placeholder content) “Is your child struggling with reading? Our tailored tuition service is here to ignite their passion for words. With engaging lessons, personalized attention, and proven techniques, we’ll transform hesitant readers into confident bookworms. Enroll today and watch their world expand, one page at a time!”</div>
-                <br>
+                <br />
+                <div class="ProgrammeContent">
+                    (AI-generated content placeholder content) “Is your child
+                    struggling with reading? Our tailored tuition service is
+                    here to ignite their passion for words. With engaging
+                    lessons, personalized attention, and proven techniques,
+                    we’ll transform hesitant readers into confident bookworms.
+                    Enroll today and watch their world expand, one page at a
+                    time!”
+                </div>
+                <br />
                 <div class="ProgrammeButton">Enroll here</div>
             </div>
         </div>
 
         <div class="ProgrammeFrame">
-            <img class="ProgrammeImage" src="./assets/ic_fluent_math_formula_24_filled.png">
+            <img
+                class="ProgrammeImage"
+                src="./assets/ic_fluent_math_formula_24_filled.png"
+            />
             <div class="ProgrammeText">
                 <div class="ProgrammeHeader">Mathematics</div>
-                <br>
-                <div class="ProgrammeContent">(AI-generated content placeholder content) “Is your child struggling with reading? Our tailored tuition service is here to ignite their passion for words. With engaging lessons, personalized attention, and proven techniques, we’ll transform hesitant readers into confident bookworms. Enroll today and watch their world expand, one page at a time!”</div>
-                <br>
+                <br />
+                <div class="ProgrammeContent">
+                    (AI-generated content placeholder content) “Is your child
+                    struggling with reading? Our tailored tuition service is
+                    here to ignite their passion for words. With engaging
+                    lessons, personalized attention, and proven techniques,
+                    we’ll transform hesitant readers into confident bookworms.
+                    Enroll today and watch their world expand, one page at a
+                    time!”
+                </div>
+                <br />
                 <div class="ProgrammeButton">Enroll here</div>
             </div>
         </div>
 
         <div class="ProgrammeFrame">
-            <img class="ProgrammeImage" src="./assets/ic_fluent_microscope_24_filled.png">
+            <img
+                class="ProgrammeImage"
+                src="./assets/ic_fluent_microscope_24_filled.png"
+            />
             <div class="ProgrammeText">
                 <div class="ProgrammeHeader">Science</div>
-                <br>
-                <div class="ProgrammeContent">(AI-generated content placeholder content) “Is your child struggling with reading? Our tailored tuition service is here to ignite their passion for words. With engaging lessons, personalized attention, and proven techniques, we’ll transform hesitant readers into confident bookworms. Enroll today and watch their world expand, one page at a time!”</div>
-                <br>
+                <br />
+                <div class="ProgrammeContent">
+                    (AI-generated content placeholder content) “Is your child
+                    struggling with reading? Our tailored tuition service is
+                    here to ignite their passion for words. With engaging
+                    lessons, personalized attention, and proven techniques,
+                    we’ll transform hesitant readers into confident bookworms.
+                    Enroll today and watch their world expand, one page at a
+                    time!”
+                </div>
+                <br />
                 <div class="ProgrammeButton">Enroll here</div>
             </div>
         </div>
 
         <div class="ProgrammeFrame">
-            <img class="ProgrammeImage" src="./assets/ic_fluent_building_retail_money_24_filled.png">
+            <img
+                class="ProgrammeImage"
+                src="./assets/ic_fluent_building_retail_money_24_filled.png"
+            />
             <div class="ProgrammeText">
                 <div class="ProgrammeHeader">Economics</div>
-                <br>
-                <div class="ProgrammeContent">(AI-generated content placeholder content) “Is your child struggling with reading? Our tailored tuition service is here to ignite their passion for words. With engaging lessons, personalized attention, and proven techniques, we’ll transform hesitant readers into confident bookworms. Enroll today and watch their world expand, one page at a time!”</div>
-                <br>
+                <br />
+                <div class="ProgrammeContent">
+                    (AI-generated content placeholder content) “Is your child
+                    struggling with reading? Our tailored tuition service is
+                    here to ignite their passion for words. With engaging
+                    lessons, personalized attention, and proven techniques,
+                    we’ll transform hesitant readers into confident bookworms.
+                    Enroll today and watch their world expand, one page at a
+                    time!”
+                </div>
+                <br />
                 <div class="ProgrammeButton">Enroll here</div>
             </div>
         </div>
+    </body>
+</html>

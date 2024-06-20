@@ -4,7 +4,8 @@
     margin-top: 7rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
 }
 
 @media only screen and (max-width: 600px) {

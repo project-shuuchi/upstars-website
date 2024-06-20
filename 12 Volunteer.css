@@ -1,6 +1,6 @@
 .VolunteerMainDescription {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 16px;
     width: 80%;
     margin: 0 auto;
 }
@@ -8,7 +8,7 @@
 .VolunteerSwitchTab {
     background-color: #66738b;
     font-weight: bold;
-    width: 20rem;
+    max-width: 16rem;
     margin: 0 auto;
     padding: 0.6rem;
     font-size: 1.3rem;
@@ -42,7 +42,8 @@
     font-size: 2.5rem;
     text-align: center;
     margin-top: 2rem;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
 }
 
 .VolunteerTutorCommitmentsFrame {
@@ -54,24 +55,38 @@
     margin-top: 2rem;
 }
 
+@media screen and (max-width: 600px) {
+    .VolunteerTutorCommitmentsFrame {
+        grid-template-columns: 1fr;
+    } 
+}
+
 .VolunteerTutorCommitmentSingular {
     text-align: center;
     background-color: #66738b;
     color: white;
     border-radius: 1rem;
-    padding: 2rem;
-    padding-bottom: 0rem;
+    padding: 2rem 1rem;
     font-size: 1rem;
 }
 
 .VolunteerTCSHeader {
     font-size: 2rem;
-    font-family: 'Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: "Baskerville", "Cambria", "Cochin", "Georgia", "Times",
+        "Times New Roman", serif;
+    font-weight: bold;
 }
 
 .VolunteerTCSContent {
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 600px) {
+    .VolunteerTCSContent {
+        font-size: 14px;
+    }
+}
+
 
 .VolunteerTCSImageFrame {
     background-color: white;
@@ -86,7 +101,8 @@
     margin: auto;
     position: relative;
     top: 15%;
-    filter: brightness(0) saturate(100%) invert(13%) sepia(18%) saturate(1450%) hue-rotate(196deg) brightness(86%) contrast(83%);
+    filter: brightness(0) saturate(100%) invert(13%) sepia(18%) saturate(1450%)
+        hue-rotate(196deg) brightness(86%) contrast(83%);
 }
 
 .VolunteerProjectsGrid {
@@ -125,7 +141,7 @@
 }
 
 .VolunteerActionButton:hover {
-    background-color: #EF233C;
+    background-color: #ef233c;
 }
 
 .VolunteerActionButton.RA {
@@ -134,23 +150,24 @@
 }
 
 .VolunteerFAQQuestion {
-    margin: 2rem auto 0 auto;
+    margin: 1rem auto -1rem auto;
     width: 80%;
-    font-size: 1.3rem;
     color: white;
     background-color: #66738b;
-    padding: 0.5rem 2rem;
+    padding: 1rem;
     box-sizing: border-box;
     border-radius: 1rem;
+    font-style: italic;
 }
 
 .VolunteerFAQAnswer {
-    margin: 0 auto;
+    margin: -2rem auto 1rem;
     width: 80%;
     font-size: 1rem;
-    padding: 1rem 2rem;
+    padding: 3rem 1rem 1rem;
     box-sizing: border-box;
     border-radius: 0 0 1rem 1rem;
     border: 1px solid #66738b;
     border-top: none;
+    z-index: 1;
 }
