@@ -67,7 +67,12 @@
 }
 
 .HamburgerMenu {
-    display: none;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: 300ms opacity cubic-bezier(1,0,.36,1), 300ms transform cubic-bezier(1,0,.36,1);
+
     position: fixed;
     top: 6rem;
     right: 1rem;
@@ -85,5 +90,7 @@
 }
 
 .HamburgerMenu.active {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }
